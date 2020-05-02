@@ -11,7 +11,7 @@ public class Main {
 	public static void showIt ( ) {
 		System.out.println ( "this path: \u001b[32m" + new java.io.File ( "" ).getAbsolutePath ( ) + "\u001b[37m" );
 		System.out.println ( "test \u001b[33mSystem.out.println()\u001b[37m" );
-	}		
+	}
 
 	public static native void nativeStaticFn ( );
 
