@@ -1,0 +1,14 @@
+[package]
+name = "test_jni"
+version = "0.1.0"
+authors = ["Supot Chainiramitkul <bingli224@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+jni = { version = '0.16.0', features = [ 'invocation', 'default' ] }
+
+
+[lib]
+crate_type = [ "cdylib" ]
